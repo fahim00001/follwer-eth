@@ -1,0 +1,25 @@
+.course-card{
+    position: relative;
+}
+.custom-btn-course{
+    border: none;
+  padding: 3%;
+  color: white;
+  background-color: rgb(237,135,45);
+  border-radius: 15px;
+  
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.custom-btn-course a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 18px;
+}
+
+.custom-btn-course:hover{
+    background-color:rgb(185, 123, 6) ;
+}

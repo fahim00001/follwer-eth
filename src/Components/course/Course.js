@@ -1,18 +1,18 @@
 import React from 'react';
-
+import './Course.css'
 const Course = (props) => {
-    const {course} =props;
+    const {course,handleAddToCart} =props;
     const {name,price,picture,info}=course;
     // console.log(props);
     return (
-     <div>
+     <div className='course-card'>
             <div className="card" style={{"width": "18rem"}}>
             <img src={".."} className="card-img-top" alt="..."/>
         <div className="card-body">
             <h5 className="card-title fw-bolder">{name}</h5>
             <p className="card-text fw-bold"> Price:{price}</p>
             <p className="card-text">{info}</p>
-            <a href="\btn btn-primary" className="btn btn-primary w-100">Add to Cart</a>
+            <p onClick={() =>{handleAddToCart(course)}}><button className="custom-btn-course">Add to cart</button></p>
         </div>
     </div>
         </div>

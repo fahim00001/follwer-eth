@@ -1,0 +1,9 @@
+.cart-container{
+    background-color: rgba(255, 235, 205, 0.726);;
+    padding: 1%;
+    border-radius: 20px;
+    height: 500px;
+
+    position: sticky;
+    top: 15px;
+}
