@@ -33,7 +33,7 @@ const Courses = () => {
     return (
         <div className='container'>
             <div className='row gx-5'>
-            <div className="course-container col-lg-9  ">
+            <div className="course-container col-lg-9">
                 <div className='row row-cols-1 row-cols-lg-3 g-4'>
                         {
                             courses.map(course => <Course
@@ -45,9 +45,8 @@ const Courses = () => {
                         }
                 </div>
             </div>
-            <div className="cart-container mt-3 col-12 col-lg-3">
+            <div className="cart-container mt-3 col-lg-2">
                 <Cart
-                
                 cart={cart}
                 randomCart = {randomCart}
                 ></Cart>
