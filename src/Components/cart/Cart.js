@@ -18,7 +18,7 @@ const Cart = (props) => {
                 {
                     cart.map(course => <li><p className='fw-bold'>
                         {course.name} <br />
-                        price:{course.price}
+                        price:{course.price}<br/>
                         Instructor:{course.instructor}</p></li>)
                 }
             </ol>
