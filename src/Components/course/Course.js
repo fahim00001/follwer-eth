@@ -7,7 +7,7 @@ const Course = (props) => {
     return (
      <div className='course-card'>
             <div className="card" style={{"width": "18rem"}}>
-            <img src={".."} className="card-img-top" alt="..."/>
+            <img src={picture} className="card-img-top h-50" alt="..."/>
         <div className="card-body">
             <h5 className="card-title fw-bolder">{name}</h5>
             <p className="card-text fw-bold"> Price:{price}</p>

@@ -3,19 +3,34 @@ import './cart.css'
 const Cart = (props) => {
     // console.log(props);
     const {cart}=props;
-    const {name,price}=cart
+   
+    const resetCourse =()=>{
+      (cart.length = 0)
+
+    }
+    const randomCart = () =>{
+        const recomendCourse = [...cart]
+        // console.log(recomendCourse);
+        const addCart=Math.floor(Math.random() * (recomendCourse[1].name))
+        // let rancart = Math.floor(Math.random() * [...cart.length])
+        console.log(addCart);
+    }
     return (
         <div className='cart'>
             <h4>Cart Details</h4>
-            <p className='fw-bolder'>Course name:</p> 
-            <ol>
+             
+            {
+                <ol>
                 {
-                    cart.map(course => <li><p>{course.name}</p></li>)
+                    cart.map(course => <li><p className='fw-bold'>
+                        {course.name} <br />
+                        price:{course.price}</p></li>)
                 }
             </ol>
-            <p>Price:</p>
-            <button  className='mt-3 custom-button custom-btn' >Recommed teacher</button><br />
-            <button className='mt-3 btn btn-danger  rounded-pill' >Reset Cart</button>
+            }
+            
+            <button onClick={randomCart} className='mt-3 custom-button custom-btn' >Recommed teacher</button><br />
+            <button onClick={resetCourse} className='mt-3 btn btn-danger  rounded-pill' >Reset Cart</button>
         </div>
     );
 };

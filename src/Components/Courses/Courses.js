@@ -11,6 +11,8 @@ const Courses = () => {
         const addCourse =[...cart,course]
         setCart(addCourse) 
     }
+    
+
     useEffect(()=>{
         fetch('coursesdb.json')
         .then(res =>res.json())
@@ -19,8 +21,8 @@ const Courses = () => {
 
     return (
         <div className='container'>
-            <div className='row'>
-            <div className="course-container col-lg-10">
+            <div className='row gx-5'>
+            <div className="course-container col-lg-9  ">
                 <div className='row row-cols-1 row-cols-lg-3 g-4'>
                         {
                             courses.map(course => <Course
@@ -32,8 +34,9 @@ const Courses = () => {
                         }
                 </div>
             </div>
-            <div className="cart-container mt-3 col-12 col-lg-2">
+            <div className="cart-container mt-3 col-12 col-lg-3">
                 <Cart
+                
                 cart={cart}
                 ></Cart>
             </div>
