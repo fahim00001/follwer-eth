@@ -6,7 +6,8 @@
         "price": 1500,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"tabriz alam " 
+        "instructor":"tabriz alam ",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!" 
     },
     {
         "id": "adfasdfj2",
@@ -15,7 +16,8 @@
         "price": 1500,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"tabil ahmed "
+        "instructor":"tabil ahmed ",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"
     },
     {
         "id": "3ertbcr",
@@ -24,7 +26,8 @@
         "price": 1800,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"masum alam "
+        "instructor":"masum alam ",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"
     },
     {
         "id": "erdsevc4",
@@ -33,7 +36,8 @@
         "price": 1800,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"takir zaman" 
+        "instructor":"takir zaman",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!" 
     },
     {
         "id": "sedfsefh5",
@@ -42,7 +46,8 @@
         "price": 1800,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care" ,
-        "instructor":"almas zaman" 
+        "instructor":"almas zaman",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!" 
     },
     {
         "id": "asdfg6bar",
@@ -51,7 +56,8 @@
         "price": 1800,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"zaman tanzib"  
+        "instructor":"zaman tanzib",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"  
     },
     {
         "id": "7Adwese",
@@ -60,7 +66,8 @@
         "price": 1500,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"Ahmed zaman"  
+        "instructor":"Ahmed zaman" ,
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!" 
     },
     {
         "id": "8casdfw",
@@ -69,7 +76,8 @@
         "price": 10000,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"alim Rahman"  
+        "instructor":"alim Rahman",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"  
     },
     {
         "id": "9werw",
@@ -78,7 +86,8 @@
         "price": 2000,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"kisor kumar" 
+        "instructor":"kisor kumar",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!" 
     },
     {
         "id": "10asdf",
@@ -87,7 +96,8 @@
         "price": 2000,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"Hasanur mamun"  
+        "instructor":"Hasanur mamun",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"  
     },
     {
         "id": "1jklyuvbasdf",
@@ -96,7 +106,8 @@
         "price": 2500,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"mondol shen"  
+        "instructor":"mondol shen",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"  
     },
     {
         "id": "1sdfasdf",
@@ -105,7 +116,8 @@
         "price": 2500,
         "picture":"https://www.freepik.com/premium-vector/physics-formulas-drawn-by-hand-black-chalkboard-background_7102903.htm#query=physics&position=11&from_view=search",
         "company": "Oracal teaching care",
-        "instructor":"Hasanur Sakib"  
+        "instructor":"Hasanur Sakib",
+        "info":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum exercitationem facilis ipsum earum optio vero sapiente tenetur quis. Eveniet, vitae!"  
     }
 
 ]
