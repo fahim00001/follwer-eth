@@ -1,0 +1,11 @@
+.header{
+  background-color:rgba(255, 235, 205, 0.726);
+  padding: 1px;
+}
+.color-custom-tilte{
+    color: rgba(255, 166, 0, 0.596);
+}
+
+.header-title{
+    text-align: center;
+}
