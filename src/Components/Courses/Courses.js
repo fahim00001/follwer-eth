@@ -14,7 +14,10 @@ const Courses = () => {
     const randomCart = () =>{
         
          if(cart.length <= 3 ){
-            return window.alert('please choose 4 Course')
+            return window.alert('please choose 4 Course for recomendation')
+        }
+        else if(cart.length > 4){
+                return window.alert("You can't choose more than 4 course for recomendation")
         }
        else {
             const randomNum = cart[Math.floor(Math.random() * cart.length)];
