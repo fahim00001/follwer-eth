@@ -11,7 +11,18 @@ const Courses = () => {
         const addCourse =[...cart,course]
         setCart(addCourse) 
     }
-    
+    const randomCart = () =>{
+        
+         if(cart.length <= 3 ){
+            return window.alert('please choose 4 Course')
+        }
+       else {
+            const randomNum = cart[Math.floor(Math.random() * cart.length)];
+            let newCart = [];
+            newCart = [randomNum];
+           setCart(newCart); 
+        }
+    }
 
     useEffect(()=>{
         fetch('coursesdb.json')
@@ -38,6 +49,7 @@ const Courses = () => {
                 <Cart
                 
                 cart={cart}
+                randomCart = {randomCart}
                 ></Cart>
             </div>
             </div>
