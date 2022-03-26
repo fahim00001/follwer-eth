@@ -27,7 +27,16 @@ const Question = () => {
                     </ol>
                 </p>
             </div>
-            <div></div>
+            <div className='question-container mt-5' >
+                <h3>How react dom works? </h3>
+                <p>
+                React is javascript library which creates user interface.React is  purely write in javascript language .
+                But React have a language its call JSX that's javascriptXML.it's looks like html but it's not html .
+                whatever we code in jsx balel will compile that code And that code will create React virtual dom.That's why react make his own virtual dom where he don't have to repaint  and also it will just work for js object and also don't have to think about browser rules .Just he will make simple row js object and make a replica of browser dom which is called virtual dom.Then virtual dom compare changes then it render.
+                React virtual dom is so powerfull.It not render whole page.Rather it always compare previous and new changes then it render to browser
+                dom .After that user will able to see .
+                </p>
+            </div>
         </div>
     );
 };
